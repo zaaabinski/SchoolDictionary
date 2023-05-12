@@ -1,0 +1,102 @@
+.main{ display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width:100%}
+
+.left{width:25%}
+
+.search{width:25%}
+
+body{background-color:#c1af99;font-family: Arial, Helvetica, sans-serif;}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #a38968}
+
+th {
+  background-color: #8c6635;
+  color: white;
+}
+.centerLogin{display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;}
+
+.centerDodanie{display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;}
+
+ .centrKierunek{display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+	 
+	 
+  .banner{display: flex;width:50%; align-items:center}
+  
+.flaged{height: 200px; width: 55%; object-fit: fill; }	
+
+.login{
+  width:10%;
+  display:flex;
+  justify-content:center;
+}
+  
+img{height:300px;}
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid #8c6635;
+  padding: 10px 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #8c6635;
+  color: white;
+}
+
+input[type=text] {
+  padding: 8px;
+  margin-top: 8px;
+  font-size: 25px;
+  border: none;
+}
+input[type=password] {
+  padding: 8px;
+  margin-top: 8px;
+  font-size: 25px;
+  border: none;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+}
+.footer{
+position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #66401a;
+  color: white;
+  text-align: center;}
+
+
+
+	
